@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GDPR Decline Assistant",
+  "version": "1.0",
+  "description": "Automatically detects and declines GDPR/cookie consent popups",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
