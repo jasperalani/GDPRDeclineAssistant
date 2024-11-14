@@ -1,2 +1,2 @@
-# GDPRDeclineAssistant
- GDPR Decline Assistant
+# GDPR Decline Assistant
+Automatically detects and declines GDPR/cookie consent popups
